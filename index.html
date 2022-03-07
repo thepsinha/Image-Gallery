@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Free Images gallery</title>
+</head>
+
+<body>
+    <nav class="navigation" id="nav_bar">
+        <div class="dropdown">
+            <button onclick="myFucntion()" class="drop_btn">Menu</button>
+            <div id="items" class="dropdown-content">
+                <a href="#">Company</a>
+                <a href="#">Blog</a>
+                <a href="#">Services</a>
+                <a href="#">Product</a>
+            </div>
+        </div>
+        <!-- tagline -->
+        <span class="tag_line">
+            <img src="/img/logo/image gallery-logos_white.png" alt="" srcset="">
+        </span>
+
+        <ul class='_menu'>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="/image.html" target="iframe_a">Images</a></li>
+        </ul>
+    </nav>
+    <!-- header section -->
+    <div class="header">
+        <h1>Browse thousands of free images on Image Gallery</h1>
+        <!-- search bar -->
+        <form class="search_bar" action="/index.html">
+            <input type="text" placeholder="Search image" name="search">
+            <button class="search_btn" type="submit">
+                <i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+
+  <section class="section">
+   <iframe id="frame" srcframeborder="0" name="iframe_a">
+   </iframe>
+   </section>
+</body>
+
+</html>

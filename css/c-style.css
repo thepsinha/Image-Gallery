@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    border: 2px solid blue;
+    position: relative;
+    height: 500px;
+}
+.container h1{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+}
